@@ -89,7 +89,7 @@
                                     </div>
                                     <p class="text_black-2 mb_20">سيتم استخدام بياناتك الشخصية لمعالجة طلبك ودعم تجربتك عبر  Branca  <a href="privacy-policy.html" class="text-decoration-underline">سياسة الخصوصية</a>.</p>
                                     <div class="box-checkbox fieldset-radio mb_20 check_dev">
-                                        <input type="checkbox" id="check-agree" class="tf-check">
+                                        <input type="checkbox" id="check-agree" class="tf-check" checked>
                                         <label for="check-agree" class="text_black-2">لقد قرأت ووافقت على <a href="/page/terms-conditions" target="_blank" class="text-decoration-underline"> شروط وأحكام الموقع</a>.</label>
                                     </div>
                                 </div>
