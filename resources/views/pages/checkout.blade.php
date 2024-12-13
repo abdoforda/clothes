@@ -159,7 +159,7 @@
             }
 
             $("#placeOrder").click(function(){
-                $(".text-danger").remove();
+                $(".text-danger, .errror").remove();
                 if($("#check-agree").is(":checked")){
                     var cart = getCart();
 
@@ -195,7 +195,7 @@
                     });
                     
                 }else{
-                    $(".check_dev").append(`<span class="text-danger">يجب قبول شروط وأحكام الموقع</span>`);
+                    $(".check_dev").append(`<span class="text-danger errror">يجب قبول شروط وأحكام الموقع</span>`);
                 }
             });
 

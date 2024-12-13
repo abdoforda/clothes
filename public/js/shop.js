@@ -54,7 +54,7 @@
       // Hiển thị thông báo "Không có sản phẩm" nếu không có sản phẩm nào hiển thị
       if (visibleProductCount === 0) {
         if (!$(".wrapper-control-shop").find("h4").length) {
-          $(".wrapper-control-shop").append('<h4 class="text-center">No Products</h4>');
+          $(".wrapper-control-shop").append('<h4 class="text-center">لا يوجد منتجات</h4>');
         }
       } else {
         $(".wrapper-control-shop").find("h4").remove();
@@ -70,9 +70,9 @@
         });
 
         if ($("#product-count").length === 0) {
-          $(".meta-filter-shop").append(`<p id="product-count" class="text-2">${cc} product(s) found</p>`);
+          $(".meta-filter-shop").append(`<p id="product-count" class="text-2">${cc}  المنتجات الموجودة </p>`);
         } else {
-          $("#product-count").text(`${cc} product(s) found`);
+          $("#product-count").text(`${cc} المنتجات الموجودة`);
         }
       } else {
         $("#product-count").remove(); 
@@ -80,7 +80,7 @@
   
       if (selectedColors.length > 0 || selectedSizes.length > 0 || selectedMinPrice > 0 || selectedMaxPrice < 300) {
         if ($("#clear-filters").length === 0) {
-          $(".meta-filter-shop").append('<button id="clear-filters" class="tf-btn style-3 btn-fill animate-hover-btn">Clear Filters</button>');
+          $(".meta-filter-shop").append('<button id="clear-filters" class="tf-btn style-3 btn-fill animate-hover-btn">مسح الفلاتر</button>');
           $("#clear-filters").on("click", function () {
             $(".tf-check-color, .tf-check-size").prop("checked", false); 
             $(".range-min").val(0);
