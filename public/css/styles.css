@@ -19570,6 +19570,9 @@ blockquote .text {
     left: auto;
     right: 0;
   }
+  .rtl .tf-sw-slideshow .wrap-slider img {
+     transform: rotateY(0deg); 
+}
 }
 .no_click{
   cursor: no-drop;
