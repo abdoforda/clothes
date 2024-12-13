@@ -13,7 +13,7 @@
                 <div class="wrap-top">
                     <div class="box-left">
                         <a href="index.html">
-                            <img src="http://127.0.0.1:7000/images/logo/logo.png" style="max-width: 200px;" alt="logo" class="logo">
+                            <img src="{{ asset('images/logo/logo.png') }}" style="max-width: 200px;" alt="logo" class="logo">
                         </a>
                     </div>
                     <div class="box-right">
