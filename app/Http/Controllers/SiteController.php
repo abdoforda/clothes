@@ -306,7 +306,10 @@ class SiteController extends Controller
         $order->address = $request->address;
         $order->notes = $request->notes;
         $order->invoice_code = $invoice_code;
-        $order->coupon_details = json_encode($coupon);
+        if($coupon != null){
+            $order->coupon_details = json_encode($coupon);
+        }
+        
         $order->save();
 
 
