@@ -689,7 +689,7 @@
                                     </label>
                                 </div>
                                 <div class="tf-mini-cart-view-checkout">
-                                    <a href="/cart"
+                                    <a href="/checkout"
                                         class="tf-btn btn-outline radius-3 link w-100 justify-content-center">مشاهدة
                                         السلة</a>
                                     <a href="/checkout"
