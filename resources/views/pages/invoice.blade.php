@@ -142,6 +142,7 @@
                             }
                             
                         @endphp
+                        @if ($order->is_discounted == 1)
                         <div class="d-flex justify-content-between line pb_8 ">
                             <span class="fw-5">مجموع الخصومات</span>
                             <span class="total fw-5 discount_price">{{ $discount_price }} EGP</span>
