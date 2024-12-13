@@ -10,7 +10,7 @@
                         <div class="tf-categories-wrap">
                             <div class="tf-shopall-wrap">
                                 <div class="collection-item-circle tf-shopall">
-                                    <a href="shop-collection-sub.html" class="collection-image img-style tf-shopall-icon">
+                                    <a href="/products" class="collection-image img-style tf-shopall-icon">
                                         <i class="icon icon-arrow1-top-left"></i>
                                     </a>
                                     <div class="collection-content text-center">
