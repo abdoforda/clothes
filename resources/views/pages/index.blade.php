@@ -14,7 +14,7 @@
                                         <i class="icon icon-arrow1-top-left"></i>
                                     </a>
                                     <div class="collection-content text-center">
-                                        <a href="shop-collection-sub.html" class="link title fw-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> كل المنتجات </font></font></a>
+                                        <a href="/products" class="link title fw-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> كل المنتجات </font></font></a>
                                     </div>
                                 </div>
                             </div>
