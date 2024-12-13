@@ -188,7 +188,7 @@
                             // scroll to id element
                             $('html, body').animate({
                                 scrollTop: $("#scroll-address").offset().top
-                            }, 2000);
+                            }, 500);
 
                             // foreach errors
                             var errors = data.responseJSON.errors;
