@@ -3,7 +3,7 @@
 
 @section('content')
 <!-- page-title -->
-<div class="tf-page-title">
+<div class="tf-page-title" id="scroll-address">
             <div class="container-full">
                 <div class="heading text-center">إتمام مشترياتك</div>
             </div>
@@ -16,7 +16,7 @@
         <section class="flat-spacing-11">
             <div class="container">
                 <div class="tf-page-cart-wrap layout-2">
-                    <div class="tf-page-cart-item" id="scroll-address">
+                    <div class="tf-page-cart-item" >
                         <h5 class="fw-5 mb_20">عنوان الشحن الخاص بك</h5>
                         <form class="form-checkout">
                             <div class="box grid-2">
