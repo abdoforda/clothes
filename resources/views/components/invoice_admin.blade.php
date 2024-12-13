@@ -124,6 +124,9 @@
                                 <span class="fw-5">مجموع المنتجات</span>
                                 <span class="total fw-5 price_no_shipping" data-price="100">{{ $price_no_shipping }} EGP</span>
                             </div>
+                            @php
+                                $final_price = $price_no_shipping;
+                            @endphp
                             @if ($order->coupon_details != null)
                             @php
                                 $discount_price = '';
