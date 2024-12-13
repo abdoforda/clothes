@@ -126,7 +126,7 @@
                 var array = [];
                 var final_price = 0;
                 wishlist_ids.forEach(element => {
-                    final_price += parseFloat(element.price);
+                    final_price += parseFloat(element.price) * element.count;
                     $(".wrap-checkout-product").append(`<li class="checkout-product-item">
                                         <figure class="img-product">
                                             <img src="${element.image}" alt="product">
