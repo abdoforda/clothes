@@ -147,10 +147,10 @@
                 final_price += parseFloat({{ env('SHIPPING_COST') }});
                 $(".final_price").text(final_price + " EGP");
                 
-                $.post('/checkout', {ids:array,_token:'{{ csrf_token() }}'}, function(data) {
-                    //$(".resluts_products").hide().html(data).fadeIn();
-                    //resetButtons();
-                });
+                // $.post('/checkout', {ids:array,_token:'{{ csrf_token() }}'}, function(data) {
+                //     //$(".resluts_products").hide().html(data).fadeIn();
+                //     //resetButtons();
+                // });
             }else{
                 $(".resluts_products").hide().html(`<div class="info_black">
             لم تضف أي منتجات إلى السلة حتى الآن!<br>
