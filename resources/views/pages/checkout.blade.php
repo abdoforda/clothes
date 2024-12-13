@@ -137,7 +137,7 @@
                                                 <p class="name">${element.name}</p>
                                                 <span class="variant">${element.color} / ${element.size}</span>
                                             </div>
-                                            <span class="price">${element.price} EGP</span>
+                                            <span class="price">${parseFloat(element.price * element.count)} EGP</span>
                                         </div>
                                     </li>`);
                     array.push(element.id);
