@@ -335,7 +335,8 @@
     </nav>
     <ul class="header-list-categories tf-lg-hidden">
         @foreach ($categoriesTopNavbar as $item)
-            <li class="categories-item {{ $active_cat_id == $item->id ? 'active' : '' }} "><a href="/"
+            <li class="categories-item {{ $active_cat_id == $item->id ? 'active' : '' }} ">
+                <a href="{{ route('shop.category', $item->slug) }}"
                     class="text-uppercase">{{ $item->name }}</a></li>
         @endforeach
     </ul>
