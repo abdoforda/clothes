@@ -377,7 +377,7 @@
                                         </p>
                                     </li>
                                 </ul>
-                                <a href="/contact" class="tf-btn btn-line">تواصل معنا<i
+                                <a href="{{ route('contact') }}" class="tf-btn btn-line">تواصل معنا<i
                                         class="icon icon-arrow1-top-left"></i></a>
                                 <ul class="tf-social-icon d-flex gap-10">
                                     <li><a target="_blank" href="{{ setting('site.facebook') }}"
