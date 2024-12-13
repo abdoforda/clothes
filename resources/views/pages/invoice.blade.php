@@ -167,8 +167,8 @@
             <div class="footer">
                 <ul class="box-contact">
                     <li>Branca-eg.com</li>
-                    <li>invoice@branca-eg.com</li>
-                    <li>(123) 123-456</li>
+                    <li>{{ setting('site.address') }}</li>
+                    <li>{{ setting('site.phone') }}</li>
                 </ul>
             </div>
         </div>
