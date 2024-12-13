@@ -16,7 +16,7 @@
         <section class="flat-spacing-11">
             <div class="container">
                 <div class="tf-page-cart-wrap layout-2">
-                    <div class="tf-page-cart-item">
+                    <div class="tf-page-cart-item" id="scroll-address">
                         <h5 class="fw-5 mb_20">عنوان الشحن الخاص بك</h5>
                         <form class="form-checkout">
                             <div class="box grid-2">
@@ -184,6 +184,12 @@
                             window.location.href = "/invoice/" + data.data.invoice_code;
                         }, 
                         error: function(data) {
+
+                            // scroll to id element
+                            $('html, body').animate({
+                                scrollTop: $("#scroll-address").offset().top
+                            }, 2000);
+
                             // foreach errors
                             var errors = data.responseJSON.errors;
                             console.log(errors);
