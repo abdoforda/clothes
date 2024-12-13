@@ -22,4 +22,14 @@
         </div>       
     </div>
     <!-- End Filter -->
+    <style>
+        .box{
+            margin-bottom: 24px;
+        }
+        .box h4{
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 50.4px;
+        }
+    </style>
 @endsection
