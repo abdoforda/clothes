@@ -26,6 +26,9 @@
         .box{
             margin-bottom: 24px;
         }
+        .box p{
+            text-align: justify;
+        }
         .box h4{
             font-size: 22px;
             font-weight: 500;
