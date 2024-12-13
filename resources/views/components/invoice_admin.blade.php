@@ -148,7 +148,7 @@
                             <hr style="color: #000; border-top: 1px solid;">
                             <div class="d-flex justify-content-between  pb_8 ">
                                 <span class="fw-5">المجموع</span>
-                                <span class="total fw-5 discount_price">{{ ($price_no_shipping + $discount_price) }} EGP</span>
+                                <span class="total fw-5 discount_price">{{ ($final_price) }} EGP</span>
                             </div>
                             @endif
                             
