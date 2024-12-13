@@ -197,7 +197,7 @@
                                     </div>
                                 </div>
                                 <div class="tf-product-info-buy-button">
-                                    <form class="">
+                                    <form class="overflow-hidden">
                                         <a href="javascript:void(0);" class="tf-btn btn-fill justify-content-center fw-6 fs-16 flex-grow-1 animate-hover-btn btn-add-to-cart"><span>إضافة إلي السلة  -&nbsp;</span><span class="tf-qty-price total-price">{{ $product->final_price }} EGP</span></a>
                                         <a data-product-id="{{ $product->id }}" href="javascript:void(0);" class="favorite-btn tf-product-btn-wishlist hover-tooltip box-icon bg_white wishlist btn-icon-action">
                                             <span class="icon icon-heart"></span>
