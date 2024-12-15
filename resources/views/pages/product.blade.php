@@ -65,7 +65,7 @@
                                         @if ($product->youtube_id != null)
                                         <div class="swiper-slide stagger-item" >
                                             <div class="item">
-                                                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/{{ $product->youtube_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                                <img class="lazyload" data-src="https://as1.ftcdn.net/v2/jpg/03/45/09/72/1000_F_345097247_HKfpq7cWx50F1ohDCCVCgSSsIWYP87eG.jpg" src="https://as1.ftcdn.net/v2/jpg/03/45/09/72/1000_F_345097247_HKfpq7cWx50F1ohDCCVCgSSsIWYP87eG.jpg" alt="img-product">
                                             </div>
                                         </div>
                                         @endif
