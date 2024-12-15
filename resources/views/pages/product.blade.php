@@ -62,6 +62,15 @@
                             <div class="thumbs-slider">
                                 <div dir="ltr" class="swiper tf-product-media-thumbs other-image-zoom" data-direction="vertical">
                                     <div class="swiper-wrapper stagger-wrap">
+                                        @if ($product->youtube_id != null)
+                                        <div class="swiper-slide stagger-item" >
+                                            <div class="item">
+                                                <iframe id="ytplayer" 
+src="https://www.youtube.com/embed/{{ $product->youtube_id }}?autoplay=1&loop=1"
+frameborder="0">
+                                            </div>
+                                        </div>
+                                        @endif
                                         @foreach (json_decode($product->images) as $image)
                                         <div class="swiper-slide stagger-item" >
                                             <div class="item">
