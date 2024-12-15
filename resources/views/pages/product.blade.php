@@ -80,6 +80,11 @@
                                 </div>
                                 <div dir="ltr" class="swiper tf-product-media-main" id="gallery-swiper-started">
                                     <div class="swiper-wrapper" >
+                                        @if ($product->youtube_id != null)
+                                        <div class="swiper-slide">
+                                            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/{{ $product->youtube_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        </div>
+                                        @endif
                                         @foreach (json_decode($product->images) as $image)
 
                                         <div class="swiper-slide" >
