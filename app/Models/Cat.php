@@ -12,7 +12,7 @@ class Cat extends Model
     // relation with product
     public function products()
     {
-        return $this->belongsToMany(Product::class);
+        return $this->belongsToMany(Product::class)->orderBy('created_at', 'desc');
     }
 
     //products_random
