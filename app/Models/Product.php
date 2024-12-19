@@ -121,4 +121,27 @@ class Product extends Model
 
         return $products;
     }
+
+
+    protected static function boot()
+    {
+        parent::boot();
+
+        static::saving(function ($model) {
+            // إذا كان الـ slug فارغًا، قم بإنشائه من العنوان
+            if (empty($model->slug)) {
+                $model->slug = Str::slug($model->title);
+            }
+            
+            // التحقق من التكرار
+            $originalSlug = $model->slug;
+            $counter = 1;
+
+            while (static::where('slug', $model->slug)->exists()) {
+                $model->slug = $originalSlug . '-' . $counter++;
+            }
+        });
+    }
+
+
 }
