@@ -6,9 +6,5 @@
             @include('components.card_product', ['item' => $item])
         @endforeach
 
-        <div>
-            {{ $products->links() }}
-        </div>
-
     </div>
 </div>
