@@ -6,11 +6,9 @@
             @include('components.card_product', ['item' => $item])
         @endforeach
 
-        @if (isset($products->links()))
-
+        <div>
             {{ $products->links() }}
-            
-        @endif
+        </div>
 
     </div>
 </div>
