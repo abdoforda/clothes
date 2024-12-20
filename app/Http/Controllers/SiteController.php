@@ -150,7 +150,7 @@ class SiteController extends Controller
                 }
             }
     
-            $products = $query->paginate(env('PAGINATE'));
+            $products = $query->orderBy('created_at', 'desc')->paginate(env(key: 'PAGINATE'));
             return view('components.products', compact('products'));
         }
 
