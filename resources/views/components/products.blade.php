@@ -6,7 +6,7 @@
             @include('components.card_product', ['item' => $item])
         @endforeach
 
-        @if (isset($products->links))
+        @if (isset($products->links()))
 
             {{ $products->links() }}
             
