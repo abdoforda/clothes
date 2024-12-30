@@ -35,6 +35,8 @@
     <link rel="shortcut icon" href="images/logo/favicon.png') }}">
     <link rel="apple-touch-icon-precomposed" href="images/logo/favicon.png') }}">
 
+    {!! setting('site.pixels') !!}
+
 </head>
 
 <body class="preload-wrapper rtl">
