@@ -32,10 +32,6 @@
                         <div class="box-left">
                             <div class="title">المتجر</div>
                             <div class="sub">Branka</div>
-                            <p class="desc">
-                                24 شارع النخيل المدينة المنورة <br>
-                                مكة المكرمة المملكة العربية السعودية
-                            </p>
                         </div>
                         <div class="box-right">
                             <div class="title">بيانات العميل</div>
