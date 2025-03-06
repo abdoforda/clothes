@@ -20,19 +20,9 @@
                     <div class="sticky-top">
                         <h5 class="mb_20">تفضل بزيارة متجرنا</h5>
                         <div class="mb_20">
-                            <p class="mb_15"><strong>العنوان</strong></p>
-                            <p>24 شارع أحمد بدوي, أبو النمرس, جيزة</p>
-                        </div>
-                        <div class="mb_20">
-                            <p class="mb_15"><strong>Phone</strong></p>
-                            <p>
-                                <a href="tel:+00201124607159" class="link">01124607159</a>
-                            </p>
-                        </div>
-                        <div class="mb_20">
                             <p class="mb_15"><strong>البريد الإلكتروني</strong></p>
                             <p>
-                                <a href="mailto:Ahmed@gmail.com">Ahmed@gmail.com</a>
+                                <a href="mailto:brancaeg111@gmail.com">brancaeg111@gmail.com</a>
                             </p>
                         </div>
                         <div class="mb_36">
